@@ -17,10 +17,8 @@ Bộ dữ liệu: [Default of Credit Card Clients Dataset](https://archive.ics.u
 
 ```
 .
-├── notebooks/
-│   └── KLTN_FILE_CODE.ipynb   # Notebook chính: EDA, feature engineering, mô hình, SHAP
-├── docs/
-│   └── KLTN_DuongThiHongNgoc_2022601391.pdf   # Toàn văn khóa luận
+├── KLTN_FILE_CODE.ipynb           # Notebook chính: EDA, feature engineering, mô hình, SHAP
+├── Dương_Thị_Hồng_Ngọc_2022601391.pdf   # Toàn văn khóa luận
 ├── requirements.txt
 └── README.md
 ```
@@ -36,7 +34,7 @@ pip install -r requirements.txt
 ## Chạy notebook
 
 ```bash
-jupyter notebook notebooks/KLTN_FILE_CODE.ipynb
+jupyter notebook KLTN_FILE_CODE.ipynb
 ```
 
 Notebook tự động tìm file dữ liệu ở các vị trí phổ biến (local, Google Colab...).
